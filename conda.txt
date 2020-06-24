@@ -1,0 +1,15 @@
+conda deactivate
+conda activate carnd-term1
+conda --list
+conda info --envs
+conda list -n carnd-term1
+
+
+nvcc --version
+nvidia-smi
+
+pip install tensorflow==2.1.0
+pip install tensorflow-gpu==2.1.0
+
+
+https://www.tensorflow.org/install/source#tested_build_configurations
